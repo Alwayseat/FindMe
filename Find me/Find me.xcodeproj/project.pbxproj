@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6DD437661DF1C8BE00818F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD437651DF1C8BE00818F70 /* main.m */; };
 		6DD4376C1DF1C8BE00818F70 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4376B1DF1C8BE00818F70 /* MainScreen.m */; };
-		6DD4376F1DF1C8BE00818F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD4376D1DF1C8BE00818F70 /* Main.storyboard */; };
 		6DD437711DF1C8BE00818F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD437701DF1C8BE00818F70 /* Assets.xcassets */; };
 		6DD437741DF1C8BE00818F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD437721DF1C8BE00818F70 /* LaunchScreen.storyboard */; };
 		6DD4377E1DF1CA3300818F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4377D1DF1CA3300818F70 /* AppDelegate.m */; };
@@ -22,7 +21,6 @@
 		6DD437651DF1C8BE00818F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DD4376A1DF1C8BE00818F70 /* MainScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		6DD4376B1DF1C8BE00818F70 /* MainScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
-		6DD4376E1DF1C8BE00818F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DD437701DF1C8BE00818F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DD437731DF1C8BE00818F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DD437751DF1C8BE00818F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				6D6B38FF1DF1CBB300DD8057 /* UI */,
 				6DD4376A1DF1C8BE00818F70 /* MainScreen.h */,
 				6DD4376B1DF1C8BE00818F70 /* MainScreen.m */,
-				6DD4376D1DF1C8BE00818F70 /* Main.storyboard */,
 				6DD437641DF1C8BE00818F70 /* Supporting Files */,
 			);
 			path = "Find me";
@@ -190,7 +187,6 @@
 			files = (
 				6DD437741DF1C8BE00818F70 /* LaunchScreen.storyboard in Resources */,
 				6DD437711DF1C8BE00818F70 /* Assets.xcassets in Resources */,
-				6DD4376F1DF1C8BE00818F70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,14 +254,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6DD4376D1DF1C8BE00818F70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DD4376E1DF1C8BE00818F70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6DD437721DF1C8BE00818F70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -371,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Find me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.findme.Find-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Find me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.findme.Find-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
