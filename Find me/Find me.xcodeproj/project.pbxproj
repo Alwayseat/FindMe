@@ -53,6 +53,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6D6B38FE1DF1CBB300DD8057 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D6B38FF1DF1CBB300DD8057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		6DD437581DF1C8BE00818F70 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				6DD4377B1DF1CA3300818F70 /* AppDelegate */,
+				6D6B38FE1DF1CBB300DD8057 /* Model */,
+				6D6B38FF1DF1CBB300DD8057 /* UI */,
 				6DD4376A1DF1C8BE00818F70 /* MainScreen.h */,
 				6DD4376B1DF1C8BE00818F70 /* MainScreen.m */,
 				6DD4376D1DF1C8BE00818F70 /* Main.storyboard */,
