@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 23674df309715df9ada8df868f5d7fd168a49259
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - Bolts
+  - PureLayout
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: d69aa86876453dc8686a5fd9e58331f07f88ce9d
 
 COCOAPODS: 1.2.0.beta.1
