@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6DD437661DF1C8BE00818F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD437651DF1C8BE00818F70 /* main.m */; };
-		6DD437691DF1C8BE00818F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD437681DF1C8BE00818F70 /* AppDelegate.m */; };
-		6DD4376C1DF1C8BE00818F70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4376B1DF1C8BE00818F70 /* ViewController.m */; };
+		6DD4376C1DF1C8BE00818F70 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4376B1DF1C8BE00818F70 /* MainScreen.m */; };
 		6DD4376F1DF1C8BE00818F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD4376D1DF1C8BE00818F70 /* Main.storyboard */; };
 		6DD437711DF1C8BE00818F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD437701DF1C8BE00818F70 /* Assets.xcassets */; };
 		6DD437741DF1C8BE00818F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD437721DF1C8BE00818F70 /* LaunchScreen.storyboard */; };
+		6DD4377E1DF1CA3300818F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4377D1DF1CA3300818F70 /* AppDelegate.m */; };
 		A082032CABB03F149122F32A /* libPods-Find me.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019187F1C685979285AFAC10 /* libPods-Find me.a */; };
 /* End PBXBuildFile section */
 
@@ -20,14 +20,14 @@
 		019187F1C685979285AFAC10 /* libPods-Find me.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Find me.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD437611DF1C8BE00818F70 /* Find me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD437651DF1C8BE00818F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6DD437671DF1C8BE00818F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6DD437681DF1C8BE00818F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DD4376A1DF1C8BE00818F70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DD4376B1DF1C8BE00818F70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DD4376A1DF1C8BE00818F70 /* MainScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		6DD4376B1DF1C8BE00818F70 /* MainScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
 		6DD4376E1DF1C8BE00818F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DD437701DF1C8BE00818F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DD437731DF1C8BE00818F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DD437751DF1C8BE00818F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD4377C1DF1CA3300818F70 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DD4377D1DF1CA3300818F70 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E6A6BCFE4D01F86983D2BE58 /* Pods-Find me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find me/Pods-Find me.release.xcconfig"; sourceTree = "<group>"; };
 		EE977B274BEF9A83BA491EBE /* Pods-Find me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find me/Pods-Find me.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,14 +74,10 @@
 		6DD437631DF1C8BE00818F70 /* Find me */ = {
 			isa = PBXGroup;
 			children = (
-				6DD437671DF1C8BE00818F70 /* AppDelegate.h */,
-				6DD437681DF1C8BE00818F70 /* AppDelegate.m */,
-				6DD4376A1DF1C8BE00818F70 /* ViewController.h */,
-				6DD4376B1DF1C8BE00818F70 /* ViewController.m */,
+				6DD4377B1DF1CA3300818F70 /* AppDelegate */,
+				6DD4376A1DF1C8BE00818F70 /* MainScreen.h */,
+				6DD4376B1DF1C8BE00818F70 /* MainScreen.m */,
 				6DD4376D1DF1C8BE00818F70 /* Main.storyboard */,
-				6DD437701DF1C8BE00818F70 /* Assets.xcassets */,
-				6DD437721DF1C8BE00818F70 /* LaunchScreen.storyboard */,
-				6DD437751DF1C8BE00818F70 /* Info.plist */,
 				6DD437641DF1C8BE00818F70 /* Supporting Files */,
 			);
 			path = "Find me";
@@ -90,9 +86,21 @@
 		6DD437641DF1C8BE00818F70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DD437701DF1C8BE00818F70 /* Assets.xcassets */,
+				6DD437721DF1C8BE00818F70 /* LaunchScreen.storyboard */,
+				6DD437751DF1C8BE00818F70 /* Info.plist */,
 				6DD437651DF1C8BE00818F70 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DD4377B1DF1CA3300818F70 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6DD4377C1DF1CA3300818F70 /* AppDelegate.h */,
+				6DD4377D1DF1CA3300818F70 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		DAEA2FF46C177C8713B1B743 /* Frameworks */ = {
@@ -225,9 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD4376C1DF1C8BE00818F70 /* ViewController.m in Sources */,
-				6DD437691DF1C8BE00818F70 /* AppDelegate.m in Sources */,
+				6DD4376C1DF1C8BE00818F70 /* MainScreen.m in Sources */,
 				6DD437661DF1C8BE00818F70 /* main.m in Sources */,
+				6DD4377E1DF1CA3300818F70 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +392,7 @@
 				6DD4377A1DF1C8BE00818F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
